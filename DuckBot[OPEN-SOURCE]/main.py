@@ -69,7 +69,7 @@ async def on_message(message):
 # help Command
 @client.command()
 async def h(ctx):
-    help_message = await ctx.send('```fix\nDuck Help! *quack*\n\n A duck a day keeps the Lars away! \n   Created by torrylol on GIT lol \n\nCommands List: \n :duckpic || Sends a duck from the DUCK DATABASE \n :duckgif || Sends discord duck gif \n :pin || Kian Duck Pin \n :quack + message || Quack echo \n :gang + number || Summons the duck gang \n :tame + number || Tame a duck! \n :pdf [NEW] || Ducks1.pdf \n :fact [NEW] || Random Duck fact \n :alert + message || Alert! \n\nOther Features: \n - @Mention for "duck" keyword \n - Watches YOU (and the ducklings) \n - More features coming soon! \n\nCurrent Version; v.1.0.3```')
+    help_message = await ctx.send('```fix\nDuck Help! *quack*\n\n A duck a day! \n   Created by torrylol on GIT lol \n\nCommands List: \n :duckpic || Sends a duck from the DUCK DATABASE \n :duckgif || Sends discord duck gif \n :pin || Kian Duck Pin \n :quack + message || Quack echo \n :gang + number || Summons the duck gang \n :tame + number || Tame a duck! \n :pdf [NEW] || Ducks1.pdf \n :fact [NEW] || Random Duck fact \n :alert + message || Alert! \n\nOther Features: \n - @Mention for "duck" keyword \n - Watches YOU (and the ducklings) \n - More features coming soon! \n\nCurrent Version; v.1.0.3```')
     await help_message.add_reaction('🇩')
     await help_message.add_reaction('🇺')
     await help_message.add_reaction('🇨')
